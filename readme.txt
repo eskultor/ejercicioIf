@@ -1,0 +1,1 @@
+ejercicio echo con html y javascript ejercicio clasico de un IF preguntando al usuario
