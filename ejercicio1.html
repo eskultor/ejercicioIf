@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ejercicio2</title>
+</head>
+<body>
+	<h1>ejercicio 2</h1>
+	<h2>Quieres comprar un movil iphone 11 que cuesta 3400E</h2>
+	<p><b>Crear un programa que le pregunte si va pagar con targeta o efectivo</b><br>
+		con targeta sera <b>1</b> y en efectivo sera <b>2</b><br>
+		si paga con targeta automaticamente se le dara el movil<br>
+		si paga en efectivo hay que ver si es exacto o ahy que delvolver el cambio
+	</p>
+	<h2>Solucion</h2>
+	<p>
+		const precio =3400;<br>
+const pago =prompt("Como vas a pagar \n[1] en targeta \n[2] en efectivo");<br>
+
+let dinero =0;<br>
+if(pago == 1)<br>
+{
+	var x = alert("movil comprado ")<br>
+}<br>
+else if(pago==2)<br>
+{
+	dinero =prompt("Cuanto dinero tienes");<br>
+	if(dinero >= precio)<br>
+	{
+		var cambio = dinero - precio;
+		alert("Movil comprado y su cambio es " + cambio + " Euros");
+	}<br>
+	else
+	{
+		alert("ERES POBRE Y NO TE LLEGA EL DINERO");
+	}<br>
+
+}<br>
+else<br>
+{
+	alert("Opcion no valida");<br>
+}
+	</p>
+	<script src="indix.js"></script>
+</body>
+</html>
